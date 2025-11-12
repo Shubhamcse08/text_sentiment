@@ -1,7 +1,7 @@
 import streamlit as st
 from utils import analyze_sentiment
 
-st.title("Sentiment Analysis App (VADER)")
+st.title("Sentiment Analysis App")
 st.write("Enter text below to analyze its sentiment:")
 
 user_input = st.text_area("Enter Text", "")
